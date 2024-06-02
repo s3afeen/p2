@@ -1,0 +1,152 @@
+.box-main {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgba(255, 255, 255, 0.992);
+    border: solid rgba(253, 253, 253, 0.182) 3px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 84, 255);
+    height: 300px;
+    width: 200px;
+    border-radius: 19px;
+    flex-direction: column;
+    mask-image: linear-gradient(deg, transparent, rgb(5, 22, 151));
+}
+
+.blue-box h1 {
+    color: white;
+}
+
+.blue-box p {
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    color: white;
+}
+
+.sarcil {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 7, 209);
+    border-radius: 50px;
+    justify-content: center;
+    mask-image: linear-gradient(0deg, transparent, rgb(0, 0, 0));
+
+}
+
+.text {
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2 {
+    color: white;
+    justify-content: center;
+}
+.text2 h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 29px;
+}
+
+.wait-box {
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+.hoverz1 {
+    /* display: flex; */
+   
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 153, 90, 0.126);
+    color: rgb(255, 72, 72);
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.hoverz2 {
+
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 220, 137, 0.123);
+    color: rgb(255, 202, 57);
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    /* flex-direction: column; */
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.hoverz3 {
+    align-items: center;
+
+    height: 30px;
+    border: none;
+    background-color: rgba(121, 255, 137, 0.11);
+    color: rgb(84, 250, 86);
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    /* flex-direction: column; */
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+
+.hoverz4 {
+    align-items: center;
+
+    height: 30px;
+    border: none;
+    background-color: rgba(111, 101, 255, 0.132);
+    color: rgb(0, 25, 100);
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    /* flex-direction: column; */
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.hoverz:hover {
+    color: chartreuse;
+    background-color: rgb(255, 255, 255);
+    /* transition: 0.5s; */
+}
+
+.Continue {
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    background-color: rgb(0, 0, 117);
+    color: white;
+    width: 170px;
+    border-radius: 20px;
+}
